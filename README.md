@@ -34,14 +34,58 @@ This guide is for beginners who do not know how to initialize a Git repo and pus
 
    Now type the following command
 
-      git init
+         git init
 
    this will initialize a git repo in your directory (a .git folder will be created in the directory)
 
 3) Now we need to need to Create a Git Repo on GitHub to save our upload/push the changes we will do for that
    Go to github.com and create your account
 4) Now Create a new Repo on your GitHub Account
-      
+      ![image](https://github.com/user-attachments/assets/c742b66c-749b-42f9-8773-6ea5d0884eaa)
+
+   click on New button
+
+   Choose a name for your Repo
+   
+   Choose the Public or Private status
+
+   Click on Create Repository button
+
+   Copy the URL of the Your Git Repo you have just create
+
+   You can find the link here
+
+   ![image](https://github.com/user-attachments/assets/ae3b3462-3db3-4a25-947f-5a2c15c4b130)
+
+   or
+
+   ![image](https://github.com/user-attachments/assets/6f1c116b-3c19-466a-8b67-634fdab818ce)
+
+   copy the HTTPS link
+
+5) Now return to the powershell and connect the Git to the GitHub
+
+      git config —global user.name "<your-git-username>"
+
+      git config —global user.email "<email-address-registered-with-github>"
+
+6) Now lets connect the GitHub repo to our Local Git Repo
+
+      git remote add origin <link-you-have-copied-in-step-4>
+
+   You have connected the the repos
+
+7) Now lets add the changes and commit them so that we can push them on GitHub
+
+      git add .
+
+      git commit -am "comment"
+
+8) Now lets push the changes
+
+      git push origin main
+
+
 
 
 
