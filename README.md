@@ -29,7 +29,20 @@ This guide is for beginners who do not know how to initialize a Git repo and pus
 
     Shortcut to open powershell or cmd in your directory
 
-   Hold shift and press right click anywhere in the folder/directory
+   Hold shift and press right click anywhere in the folder/directory and click on "open powershell window here"
+   ![image](https://github.com/user-attachments/assets/8fc0b92d-aa5e-4613-b36d-816a671089da)
+
+   Now type the following command
+
+      git init
+
+   this will initialize a git repo in your directory (a .git folder will be created in the directory)
+
+3) Now we need to need to Create a Git Repo on GitHub to save our upload/push the changes we will do for that
+   Go to github.com and create your account
+4) Now Create a new Repo on your GitHub Account
+      
+
 
 
 
