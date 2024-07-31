@@ -105,7 +105,7 @@ Copy the git repo link and type the following command
 Your repo has been cloned
 
 
-# Connecting the Existing Repo with other PC or folder
+# 1.4 Connecting the Existing Repo with other PC or folder
 
 For connecting already existing repo to the other folder or PC follow the below given steps
 
