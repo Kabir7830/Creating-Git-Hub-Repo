@@ -113,7 +113,7 @@ For connecting already existing repo to the other folder or PC follow the below 
 2) Now perform the step number 5 from 1.2 Initializing a Git Repo
 3) Fetch the changes if any
 
-     git fetch orign main
+        git fetch orign main
 
 4) Now you can add and commit changes
 
