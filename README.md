@@ -65,25 +65,33 @@ This guide is for beginners who do not know how to initialize a Git repo and pus
 
 5) Now return to the powershell and connect the Git to the GitHub
 
-      git config —global user.name "<your-git-username>"
+   Set the username
+         git config —global user.name "your-git-username"
 
-      git config —global user.email "<email-address-registered-with-github>"
+   Set the Email
+         git config —global user.email "email-address-registered-with-github"
 
-6) Now lets connect the GitHub repo to our Local Git Repo
+7) Now lets connect the GitHub repo to our Local Git Repo
 
-      git remote add origin <link-you-have-copied-in-step-4>
+         git remote add origin <link-you-have-copied-in-step-4>
 
    You have connected the the repos
 
-7) Now lets add the changes and commit them so that we can push them on GitHub
+8) Now lets add the changes and commit them so that we can push them on GitHub
 
-      git add .
+   Add the changed files (if you want to add all the changed files then use "." else type the name of particular file)
 
-      git commit -am "comment"
+         git add .
 
-8) Now lets push the changes
+   Commit the changes that you have made with a comment
 
-      git push origin main
+         git commit -am "comment"
+
+10) Now lets push the changes
+
+         git push origin main
+
+
 
 
 
