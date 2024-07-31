@@ -1,7 +1,7 @@
 # Creating-Git-Hub-Repo
 This guide is for beginners who do not know how to initialize a Git repo and push it to GitHub
 
-# Installing Git
+# 1.1 Installing Git
 
 1) https://git-scm.com/downloads open the link and choose the platform that you have (windows, mac or linux)
    ![image](https://github.com/user-attachments/assets/4b5008ae-3ea2-4d57-80f7-dfcc4ff55519)
@@ -19,7 +19,7 @@ This guide is for beginners who do not know how to initialize a Git repo and pus
 
 
 
-# Initializing a Git Repo
+# 1.2 Initializing a Git Repo
 
 1) open the folder/directory where you want to initialize the Git repo
 
@@ -91,6 +91,35 @@ This guide is for beginners who do not know how to initialize a Git repo and pus
 
          git push origin main
 
+
+# 1.3 Cloning a Repo
+
+For cloning a repo you must have Git installed on your system. (Refer 1.1 Installation Steps)
+
+To clone a repo open a folder/directory where you want to clone the repository and open the terminal in that directory (powershell, cmd or other)
+
+Copy the git repo link and type the following command
+   
+      git clone git-repo-link.git
+
+Your repo has been cloned
+
+
+# Connecting the Existing Repo with other PC or folder
+
+For connecting already existing repo to the other folder or PC follow the below given steps
+
+1) Clone the repo (refer to 1.3 Cloning a Rep)
+2) Now perform the step number 5 from 1.2 Initializing a Git Repo
+3) Fetch the changes if any
+
+     git fetch orign main
+
+4) Now you can add and commit changes
+
+Your repo is connected.
+
+   
 
 
 
